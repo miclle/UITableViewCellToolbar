@@ -92,6 +92,4 @@
     return [currentIndexPath isEqual:indexPath]? expansionHeight : originalHeight;
 }
 
-#pragma mark
-
 @end
