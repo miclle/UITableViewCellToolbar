@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38516855173A3D1800032E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38516854173A3D1800032E81 /* UIKit.framework */; };
+		38516857173A3D1800032E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38516856173A3D1800032E81 /* Foundation.framework */; };
+		38516859173A3D1800032E81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38516858173A3D1800032E81 /* CoreGraphics.framework */; };
+		3851685F173A3D1800032E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3851685D173A3D1800032E81 /* InfoPlist.strings */; };
+		38516861173A3D1800032E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38516860173A3D1800032E81 /* main.m */; };
+		38516865173A3D1800032E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38516864173A3D1800032E81 /* AppDelegate.m */; };
+		38516867173A3D1800032E81 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38516866173A3D1800032E81 /* Default.png */; };
+		38516869173A3D1800032E81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38516868173A3D1800032E81 /* Default@2x.png */; };
+		3851686B173A3D1800032E81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3851686A173A3D1800032E81 /* Default-568h@2x.png */; };
+		3851687A173A3DC100032E81 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38516878173A3DC100032E81 /* CustomCell.m */; };
+		3851687B173A3DC100032E81 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38516879173A3DC100032E81 /* CustomCell.xib */; };
+		3851687F173A3E6000032E81 /* icon-arrow-linen-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 3851687D173A3E6000032E81 /* icon-arrow-linen-top.png */; };
+		38516880173A3E6000032E81 /* icon-arrow-linen-top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3851687E173A3E6000032E81 /* icon-arrow-linen-top@2x.png */; };
+		38516884173A402E00032E81 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38516882173A402D00032E81 /* ClockViewController.m */; };
+		38516885173A402E00032E81 /* ClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38516883173A402D00032E81 /* ClockViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38516851173A3D1800032E81 /* UITableViewCellToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCellToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38516854173A3D1800032E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38516856173A3D1800032E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38516858173A3D1800032E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3851685C173A3D1800032E81 /* UITableViewCellToolbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewCellToolbar-Info.plist"; sourceTree = "<group>"; };
+		3851685E173A3D1800032E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38516860173A3D1800032E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38516862173A3D1800032E81 /* UITableViewCellToolbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCellToolbar-Prefix.pch"; sourceTree = "<group>"; };
+		38516863173A3D1800032E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38516864173A3D1800032E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38516866173A3D1800032E81 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		38516868173A3D1800032E81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3851686A173A3D1800032E81 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38516877173A3DC100032E81 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		38516878173A3DC100032E81 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		38516879173A3DC100032E81 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3851687D173A3E6000032E81 /* icon-arrow-linen-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-arrow-linen-top.png"; sourceTree = "<group>"; };
+		3851687E173A3E6000032E81 /* icon-arrow-linen-top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-arrow-linen-top@2x.png"; sourceTree = "<group>"; };
+		38516881173A402D00032E81 /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		38516882173A402D00032E81 /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		38516883173A402D00032E81 /* ClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3851684E173A3D1800032E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38516855173A3D1800032E81 /* UIKit.framework in Frameworks */,
+				38516857173A3D1800032E81 /* Foundation.framework in Frameworks */,
+				38516859173A3D1800032E81 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38516848173A3D1800032E81 = {
+			isa = PBXGroup;
+			children = (
+				3851685A173A3D1800032E81 /* UITableViewCellToolbar */,
+				38516853173A3D1800032E81 /* Frameworks */,
+				38516852173A3D1800032E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38516852173A3D1800032E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38516851173A3D1800032E81 /* UITableViewCellToolbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38516853173A3D1800032E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38516854173A3D1800032E81 /* UIKit.framework */,
+				38516856173A3D1800032E81 /* Foundation.framework */,
+				38516858173A3D1800032E81 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3851685A173A3D1800032E81 /* UITableViewCellToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				3851687C173A3DCB00032E81 /* widget */,
+				38516863173A3D1800032E81 /* AppDelegate.h */,
+				38516864173A3D1800032E81 /* AppDelegate.m */,
+				38516881173A402D00032E81 /* ClockViewController.h */,
+				38516882173A402D00032E81 /* ClockViewController.m */,
+				38516883173A402D00032E81 /* ClockViewController.xib */,
+				3851685B173A3D1800032E81 /* Supporting Files */,
+			);
+			path = UITableViewCellToolbar;
+			sourceTree = "<group>";
+		};
+		3851685B173A3D1800032E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3851687D173A3E6000032E81 /* icon-arrow-linen-top.png */,
+				3851687E173A3E6000032E81 /* icon-arrow-linen-top@2x.png */,
+				3851685C173A3D1800032E81 /* UITableViewCellToolbar-Info.plist */,
+				3851685D173A3D1800032E81 /* InfoPlist.strings */,
+				38516860173A3D1800032E81 /* main.m */,
+				38516862173A3D1800032E81 /* UITableViewCellToolbar-Prefix.pch */,
+				38516866173A3D1800032E81 /* Default.png */,
+				38516868173A3D1800032E81 /* Default@2x.png */,
+				3851686A173A3D1800032E81 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3851687C173A3DCB00032E81 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				38516877173A3DC100032E81 /* CustomCell.h */,
+				38516878173A3DC100032E81 /* CustomCell.m */,
+				38516879173A3DC100032E81 /* CustomCell.xib */,
+			);
+			name = widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38516850173A3D1800032E81 /* UITableViewCellToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38516874173A3D1800032E81 /* Build configuration list for PBXNativeTarget "UITableViewCellToolbar" */;
+			buildPhases = (
+				3851684D173A3D1800032E81 /* Sources */,
+				3851684E173A3D1800032E81 /* Frameworks */,
+				3851684F173A3D1800032E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableViewCellToolbar;
+			productName = UITableViewCellToolbar;
+			productReference = 38516851173A3D1800032E81 /* UITableViewCellToolbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38516849173A3D1800032E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Miclle;
+			};
+			buildConfigurationList = 3851684C173A3D1800032E81 /* Build configuration list for PBXProject "UITableViewCellToolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38516848173A3D1800032E81;
+			productRefGroup = 38516852173A3D1800032E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38516850173A3D1800032E81 /* UITableViewCellToolbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3851684F173A3D1800032E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851685F173A3D1800032E81 /* InfoPlist.strings in Resources */,
+				38516867173A3D1800032E81 /* Default.png in Resources */,
+				38516869173A3D1800032E81 /* Default@2x.png in Resources */,
+				3851686B173A3D1800032E81 /* Default-568h@2x.png in Resources */,
+				3851687B173A3DC100032E81 /* CustomCell.xib in Resources */,
+				3851687F173A3E6000032E81 /* icon-arrow-linen-top.png in Resources */,
+				38516880173A3E6000032E81 /* icon-arrow-linen-top@2x.png in Resources */,
+				38516885173A402E00032E81 /* ClockViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3851684D173A3D1800032E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38516861173A3D1800032E81 /* main.m in Sources */,
+				38516865173A3D1800032E81 /* AppDelegate.m in Sources */,
+				3851687A173A3DC100032E81 /* CustomCell.m in Sources */,
+				38516884173A402E00032E81 /* ClockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3851685D173A3D1800032E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3851685E173A3D1800032E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38516872173A3D1800032E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38516873173A3D1800032E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38516875173A3D1800032E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewCellToolbar/UITableViewCellToolbar-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewCellToolbar/UITableViewCellToolbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38516876173A3D1800032E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewCellToolbar/UITableViewCellToolbar-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewCellToolbar/UITableViewCellToolbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3851684C173A3D1800032E81 /* Build configuration list for PBXProject "UITableViewCellToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38516872173A3D1800032E81 /* Debug */,
+				38516873173A3D1800032E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38516874173A3D1800032E81 /* Build configuration list for PBXNativeTarget "UITableViewCellToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38516875173A3D1800032E81 /* Debug */,
+				38516876173A3D1800032E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38516849173A3D1800032E81 /* Project object */;
+}
