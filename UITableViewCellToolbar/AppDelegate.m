@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "ClockViewController.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ClockViewController alloc] initWithNibName:@"ClockViewController" bundle:nil];
+    self.viewController = [[ViewController alloc] initWithNibName:@"ClockViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ClockViewController : UITableViewController
+@interface ViewController : UITableViewController
 
 @end

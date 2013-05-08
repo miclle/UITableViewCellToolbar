@@ -6,17 +6,17 @@
 //  Copyright (c) 2013年 Miclle. All rights reserved.
 //
 
-#import "ClockViewController.h"
+#import "ViewController.h"
 #import "CustomCell.h"
 
 #define originalHeight 48.0f
 #define expansionHeight 96.0f
 
-@interface ClockViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation ClockViewController
+@implementation ViewController
 {
     NSMutableArray *items;
     NSIndexPath *currentIndexPath;
@@ -26,7 +26,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:@"ClockViewController" bundle:nil];
+    self = [super initWithNibName:@"ViewController" bundle:nil];
     if (self) {
         // Custom initialization
     }
